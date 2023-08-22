@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+ <meta charset="utf-8">
+ <link rel="stylesheet" href="surveyform.css">
+ <title>Survey Form</title>
+ </head>
+
+<body>
+ <h1 id="title">Survey Form</h1>
+ <p id="description">Thank you for taking the time to fill this out! ʕ •ᴥ•ʔゝ☆ </p>
+
+ <form id="survey-form" method="post">
+ <fieldset>
+   <label for="name" id="name-label">Name <input id="name" type="text" required placeholder="your name here" /></label>
+   <label for="email" id="email-label"> Email <input id="email" type="email" required placeholder="your email here"/></label>
+  <label for="number-label" id="number-label"> Age (optional) <input id="number" type="number" min="0" max="120" placeholder="age???">
+
+   <label for="dropdown" id="dropdown-label"> Pick a colour <select id="dropdown" name="dropdown">
+     <option value="">
+       go on...
+      </option>
+      <option value="red">
+      red
+      </option>
+      <option value="blue">
+      blue
+      </option>
+      <option value="yellow">
+       yellow
+       </option>
+</label>
+ 
+ <label for="radio-1"><input id="radio-1" type="radio" name="radio" class="inline"/ value="lucky"> I am feeling lucky</label> 
+ <label for="radio-2"><input id="radio-2" type="radio" name="radio" class="inline" value="unlucky"> I am not feeling lucky </label>
+
+ <label for="checkbox-head"> Did you see something cool today?</label>
+ <label for="checkbox=yes"> <input id="checkbox-yes" type="checkbox" value="yes"/> Yes </label>
+ <label for="checkbox-no"><input id="checkbox-no" type="checkbox" value="no"/> No </label>
+
+ <label for="textarea"> What was it? <textarea id="textarea" placeholder="ʕ·ᴥ·　ʔ"></textarea>
+</fieldset>
+<input id="submit" type="submit" value="that's all folks!">
+</form>
+
+</body>
+</html>
