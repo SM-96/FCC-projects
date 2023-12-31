@@ -1,0 +1,54 @@
+body {
+  font-family: sans-serif;
+  background: 
+##eff7ba;
+}
+#nav-bar {
+  position: fixed;
+  top: 10px;
+  background: #dfc2fc;
+  opacity: 70%;
+
+}
+p {
+font-style: italic;
+color: #595fff;
+}
+input[type="submit"] {
+  display: block;
+  border-color: 
+#ed4c87;
+ color:#ed4c87; background-color: #
+#f7bad0
+;
+}
+input{
+  display: block;
+  border-color: ed4c87;
+}
+label {
+  color: ed4c87;
+}
+.nav-link {
+  color: ed4c87;
+text-decoration: none;
+}
+
+@media screen and (min-width: 480px) {
+  body {
+    background-color: #aee3a8;
+  }
+}
+.flex-container {
+  display: flex;
+  flex-flow: row wrap;
+justify-content: space-between;
+}
+flex {
+  height: 300px;
+  width: 300px;
+}
+header-img {
+  width: max-width;
+height: 100px;
+}
